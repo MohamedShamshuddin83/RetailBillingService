@@ -21,17 +21,20 @@ Running it:
 1. Download the git repo by clonning it : https://github.com/MohamedShamshuddin83/RetailBillingService.git
 
 2. GoTo project folder and run command -> gradle build
+
     a. This will download all the dependencies, executes the JUnit Test cases 
     and generates a jar file under <ProjectFolder>\build\libs
 
-3. GoTo the libs folder and runn command -> java -jar RetailBillingService-0.0.1-SNAPSHOT.jar
+3. GoTo the libs folder and run command -> java -jar RetailBillingService-0.0.1-SNAPSHOT.jar
 
 4. Use any REST client for Eg: Postman for calling the rest endpoint as below:
    
    Endpoint : http://localhost:9090/billing/generateBillingInvoice
    
    a. As this is POST endpoint, it expects body as raw and content type as JSON(application/json)
+      
       Body: 
+        
         {
               "cartId":1,
               "customerId": 4,
@@ -50,6 +53,7 @@ Running it:
                 "unitPrice":"50000.0"
               }]
             }
+            
      b. Hit send button and you will get the BillInvoice for the above shopping details.
 
 
