@@ -38,20 +38,22 @@ Running it:
         {
               "cartId":1,
               "customerId": 4,
-              "products":[{
-                "productId":1,
-                "productName":"Television",
-                "quantity":1,
-                "productType":"ELECTRONICS",
-                "unitPrice":"50000.0"
-              },
-              {
-                "productId":2,
-                "productName":"Laptop",
-                "quantity":1,
-                "productType":"ELECTRONICS",
-                "unitPrice":"50000.0"
-              }]
+              "products":[
+                          {
+                            "productId":1,
+                            "productName":"Television",
+                            "quantity":1,
+                            "productType":"ELECTRONICS",
+                            "unitPrice":"50000.0"
+                          },
+                          {
+                            "productId":2,
+                            "productName":"Laptop",
+                            "quantity":1,
+                            "productType":"ELECTRONICS",
+                            "unitPrice":"50000.0"
+                          }
+              ]
             }
             
      b. Hit send button and you will get the BillInvoice for the above shopping details.
